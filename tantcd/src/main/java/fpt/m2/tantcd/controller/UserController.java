@@ -6,6 +6,7 @@ import fpt.m2.tantcd.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -17,7 +18,7 @@ public class UserController {
     private final static Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @PostMapping
-    public void create(@RequestBody User user) {
+    public void create(@Validated @RequestBody User user) {
         service.create(user);
     }
 
@@ -27,7 +28,7 @@ public class UserController {
     }
 
     @PutMapping
-    public void update(@RequestBody User user) {
+    public void update(@Validated @RequestBody User user) {
         service.update(user);
     }
 
