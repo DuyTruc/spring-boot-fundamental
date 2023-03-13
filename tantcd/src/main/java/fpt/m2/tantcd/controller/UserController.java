@@ -2,6 +2,9 @@ package fpt.m2.tantcd.controller;
 
 import fpt.m2.tantcd.entity.User;
 import fpt.m2.tantcd.service.UserService;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,6 +13,8 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
     @Autowired
     private UserService service;
+
+    private final static Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @PostMapping
     public void create(@RequestBody User user) {
