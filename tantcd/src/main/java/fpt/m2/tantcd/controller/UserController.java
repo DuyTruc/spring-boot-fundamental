@@ -22,9 +22,9 @@ public class UserController {
         service.create(user);
     }
 
-    @GetMapping
-    public User getByName(@RequestParam String name) {
-        return service.getByName(name);
+    @GetMapping("/{userName}")
+    public User getByName(@PathVariable String userName) {
+        return service.getByName(userName);
     }
 
     @PutMapping
