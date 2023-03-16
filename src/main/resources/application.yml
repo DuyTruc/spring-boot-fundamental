@@ -1,0 +1,8 @@
+---
+spring:
+  profiles: dev
+    include: dev
+---
+spring:
+  profiles: test
+    include: test

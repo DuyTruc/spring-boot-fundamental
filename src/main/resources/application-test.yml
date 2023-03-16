@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mockjava-trucln2-test
+    username: kienpt
+    password: abc123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.MySQL5InnoDBDialect
+server:
+  port: 8080
