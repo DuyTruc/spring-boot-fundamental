@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FptThienNlntApplication<FPT_ThienNLNT>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "fpt.m2.ThienNLNT.FptThienNlntApplication",
+            "projectName": "FPT_ThienNLNT",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
