@@ -17,8 +17,8 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User getByName(String userName) {
-        return repository.findById(userName).orElse(null);
+    public User getById(int id) {
+        return repository.findById(id).orElse(null);
     }
 
     @Override
@@ -27,7 +27,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void delete(String userName) {
-        repository.deleteById(userName);
+    public void delete(int id) {
+        repository.deleteById(id);
     }
 }

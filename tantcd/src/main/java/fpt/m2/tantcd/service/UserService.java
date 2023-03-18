@@ -5,9 +5,9 @@ import fpt.m2.tantcd.entity.User;
 public interface UserService {
     void create(User user);
 
-    User getByName(String userName);
+    User getById(int id);
 
     void update(User user);
 
-    void delete(String userName);
+    void delete(int id);
 }

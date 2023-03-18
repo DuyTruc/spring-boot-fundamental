@@ -33,9 +33,9 @@ class TantcdApplicationTests {
     void testGetUser() {
         RestTemplate restTemplate = new RestTemplate();
 
-        String userName = "congtan97";
+        int id = 1;
         User user = restTemplate
-                .getForObject(BASE_URL + "/" + userName, User.class);
+                .getForObject(BASE_URL + "/" + id, User.class);
         Assertions.assertNotNull(user.getUserName());
         Assertions.assertEquals(user.getEmail(), "congtan98@gmail.com");
     }
@@ -45,13 +45,14 @@ class TantcdApplicationTests {
     void testUpdateUser() {
         RestTemplate restTemplate = new RestTemplate();
 
-        User userCreate = new User();
-        userCreate.setUserName("congtan97");
-        userCreate.setEmail("congtan98@gmail.com");
-        userCreate.setAddress("Danang");
-        userCreate.setPhoneNumber(98765);
+        User user = new User();
+        user.setId(1);
+        user.setUserName("congtan97");
+        user.setEmail("congtan98@gmail.com");
+        user.setAddress("Danang");
+        user.setPhoneNumber(98765);
 
-        HttpEntity<User> request = new HttpEntity<>(userCreate);
+        HttpEntity<User> request = new HttpEntity<>(user);
         ResponseEntity<User> response = restTemplate.exchange(BASE_URL, HttpMethod.PUT,request, User.class);
         Assertions.assertEquals(response.getStatusCode().value(), 200);
     }
@@ -61,8 +62,8 @@ class TantcdApplicationTests {
     void testDeleteUser() {
         RestTemplate restTemplate = new RestTemplate();
 
-        String userName = "congtan97";
+        int id = 1;
 
-        restTemplate.delete(BASE_URL + "/" + userName);
+        restTemplate.delete(BASE_URL + "/" + 1);
     }
 }
