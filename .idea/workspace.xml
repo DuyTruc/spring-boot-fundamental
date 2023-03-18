@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b414fe78-bdee-4f94-ab7e-e9b3c417437a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/fpt/m2/FPT_HoangDQ2/FptHoangDq2ApplicationTests.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2N6qrbwdxV4xlGCFRW3KuzvgiwG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/HoangDQ2/java/spring-boot-fundamental/FPT_HoangDQ2/FPT_HoangDQ2/src/main/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\HoangDQ2\java\spring-boot-fundamental\FPT_HoangDQ2\FPT_HoangDQ2\src\main\resources" />
+      <recent name="C:\HoangDQ2\java\spring-boot-fundamental\FPT_HoangDQ2\FPT_HoangDQ2\src\main\java\fpt\m2\FPT_HoangDQ2\service" />
+      <recent name="C:\HoangDQ2\java\spring-boot-fundamental\FPT_HoangDQ2\FPT_HoangDQ2\src\main\java\fpt\m2\FPT_HoangDQ2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fpt.m2.FPT_HoangDQ2.repository" />
+      <recent name="fpt.m2.FPT_HoangDQ2.model" />
+      <recent name="fpt.m2.FPT_HoangDQ2.entity" />
+      <recent name="fpt.m2.FPT_HoangDQ2.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FptHoangDq2ApplicationTests.testCreateUser">
+    <configuration name="FptHoangDq2Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fpt.m2.FPT_HoangDQ2.FptHoangDq2Application" />
+      <module name="FPT_HoangDQ2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fpt.m2.FPT_HoangDQ2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FptHoangDq2ApplicationTests.testCreateCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FPT_HoangDQ2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fpt.m2.FPT_HoangDQ2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fpt.m2.FPT_HoangDQ2" />
+      <option name="MAIN_CLASS_NAME" value="fpt.m2.FPT_HoangDQ2.FptHoangDq2ApplicationTests" />
+      <option name="METHOD_NAME" value="testCreateCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FptHoangDq2ApplicationTests.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FPT_HoangDQ2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fpt.m2.FPT_HoangDQ2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fpt.m2.FPT_HoangDQ2" />
+      <option name="MAIN_CLASS_NAME" value="fpt.m2.FPT_HoangDQ2.FptHoangDq2ApplicationTests" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FptHoangDq2ApplicationTests.testCreateUser" />
+        <item itemvalue="JUnit.FptHoangDq2ApplicationTests.testCreateCustomer" />
+        <item itemvalue="Application.FptHoangDq2Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b414fe78-bdee-4f94-ab7e-e9b3c417437a" name="Changes" comment="" />
+      <created>1678995079164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678995079164</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="resp" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
