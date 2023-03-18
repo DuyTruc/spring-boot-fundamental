@@ -10,3 +10,6 @@ spring:
       dialect : org.hibernate.dialect.MySQL5InnoDBDialect
 server:
   port: 8080
+userrestapi:
+  service:
+    url: http://localhost:8080/api/user/

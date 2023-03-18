@@ -3,14 +3,20 @@ package fpt.m2.kienpt16.service.impl;
 import fpt.m2.kienpt16.entity.UserEntity;
 import fpt.m2.kienpt16.repository.UserRepository;
 import fpt.m2.kienpt16.service.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
 public class UserServiceImpl implements UserService {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(UserServiceImpl.class);
 
     @Autowired
     private UserRepository userRepository;
@@ -41,7 +47,8 @@ public class UserServiceImpl implements UserService {
         Optional users = userRepository.findById(userId);
 
         if(!users.isPresent()){
-            return ;
+            LOGGER.debug("Not found");
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Not found");
         }
 
         userRepository.save(user);
@@ -53,7 +60,8 @@ public class UserServiceImpl implements UserService {
         Optional users = userRepository.findById(userId);
 
         if(!users.isPresent()){
-            return ;
+            LOGGER.debug("Not found");
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Not found");
         }
 
         userRepository.deleteById(userId);
