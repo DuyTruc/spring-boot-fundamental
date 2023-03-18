@@ -19,7 +19,10 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public UserEntity getUserById(int id) {
-		return userRepository.findById(id).get();
+		if (userRepository.findById(id) != null) {
+			return userRepository.findById(id).get();
+		}
+		return null;
 	}
 
 	@Override
