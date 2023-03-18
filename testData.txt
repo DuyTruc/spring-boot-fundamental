@@ -1,0 +1,24 @@
+/* share link nhac chill cho anh TrucLN nghe ne https://www.youtube.com/watch?v=5nLpMWb1Fsw */
+CREATE DATABASE  IF NOT EXISTS `user_tracker` ;
+USE `user_tracker`;
+
+DROP TABLE IF EXISTS `User`;
+
+CREATE TABLE `User` (
+    id INT NOT NULL AUTO_INCREMENT,
+    userName VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    phoneNumber VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+LOCK TABLES `User` WRITE;
+
+INSERT INTO `User` (username, email, address, phoneNumber) VALUES
+('Thinh', 'ThinhZuiZui@zui.zui', '197NguyenLuongBang', '0944123123'),
+('Alice', 'alice@example.com', '123 Main St, Anytown, USA', '123456789'),
+('Bob', 'bob@example.com', '456 Maple Ave, Anytown, USA', '987654321'),
+('Charlie', 'charlie@example.com', '789 Oak St, Anytown, USA', '555555555');
+
+UNLOCK TABLES;
