@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot-fundamental
+    username: root
+    password: admin
+jpa:
+    show-sql: true
+    hibernate:
+    ddl-auto: update
+    dialect : org.hibernate.dialect.MySQL5InnoDBDialect
+server:
+  port: 8080
+logging:
+  level:
+    root: DEBUG

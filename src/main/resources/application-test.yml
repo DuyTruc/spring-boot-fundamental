@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot-fundamental-test
+    username: root
+    password: admin
+server:
+  port: 8080
