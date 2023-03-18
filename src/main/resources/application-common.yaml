@@ -1,0 +1,5 @@
+spring.profiles: jdbc
+spring.profiles.include: jdbc
+---
+spring.profiles: mysql
+spring.profiles.include: mysql
